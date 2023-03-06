@@ -1,4 +1,4 @@
-// CONFIG INFO DATABASE PRODUCTION MODE
+// INFO DATABASE PRODUCTION MODE
 module.exports = ({ env }) => ({
     connection: {
       client: 'mysql',
