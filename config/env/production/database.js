@@ -1,13 +1,14 @@
 // INFO DATABASE PRODUCTION MODE
 module.exports = ({ env }) => ({
     connection: {
-      client: 'mysql',
+      client: 'postgres',
       connection: {
-        host: env('MYSQLHOST', '127.0.0.1'),
-        port: env.int('MYSQLPORT', 3306),
-        database: env('MYSQLDATABASE', 'strapi'),
-        user: env('MYSQLUSER', 'strapi'),
-        password: env('MYSQLPASSWORD', 'strapi'),
+        host: env('PGHOST', '127.0.0.1'),
+        port: env.int('PGPORT', 5432),
+        database: env('PGDATABASE', 'strapi'),
+        user: env('PGUSER', 'strapi'),
+        password: env('PGPASSWORD', 'strapi'),
+        schema: env('DATABASE_SCHEMA', 'public'), // Not required
         ssl: {
           rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
         },
