@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_globali_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "testo": {
+      "type": "richtext"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "colonna_1": {
+      "type": "richtext"
+    },
+    "colonna_2": {
+      "type": "richtext"
+    },
+    "colonna_3": {
+      "type": "richtext"
+    },
+    "colonna_4": {
+      "type": "richtext"
+    },
+    "partner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

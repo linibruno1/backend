@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subpillars",
+  "info": {
+    "singularName": "subpillar",
+    "pluralName": "subpillars",
+    "displayName": "subpillar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

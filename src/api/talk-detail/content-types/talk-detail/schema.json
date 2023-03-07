@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "talk_details",
+  "info": {
+    "singularName": "talk-detail",
+    "pluralName": "talk-details",
+    "displayName": "talk_detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

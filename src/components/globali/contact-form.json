@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_globali_contact_forms",
+  "info": {
+    "displayName": "contact_form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "intestazione_form_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "condivisi.intestazione"
+    },
+    "intestazione_form_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "condivisi.intestazione"
+    },
+    "campi": {
+      "type": "json"
+    },
+    "policy_1": {
+      "type": "richtext"
+    },
+    "policy_2": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

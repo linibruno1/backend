@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "journals",
+  "info": {
+    "singularName": "journal",
+    "pluralName": "journals",
+    "displayName": "journal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_globali_dividers",
+  "info": {
+    "displayName": "divisore",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sinistra": {
+      "type": "string"
+    },
+    "centro": {
+      "type": "string"
+    },
+    "destra": {
+      "type": "string"
+    }
+  }
+}

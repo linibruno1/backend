@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "homepage_loader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.homepage-loader"
+    }
+  }
+}

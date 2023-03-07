@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "talks",
+  "info": {
+    "singularName": "talk",
+    "pluralName": "talks",
+    "displayName": "talk"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}

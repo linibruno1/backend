@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "resources",
+  "info": {
+    "singularName": "resource",
+    "pluralName": "resources",
+    "displayName": "resource",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact_form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globali.contact-form"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globali.footer"
+    }
+  }
+}

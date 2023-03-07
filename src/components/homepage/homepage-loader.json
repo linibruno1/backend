@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_homepage_loaders",
+  "info": {
+    "displayName": "homepage_loader",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sottotitolo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "condivisi.divider"
+    },
+    "titolo": {
+      "type": "richtext"
+    }
+  }
+}
